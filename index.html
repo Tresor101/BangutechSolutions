@@ -1,118 +1,375 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <link rel="icon" href="./multimedia/images.jpg">
-        <link rel="stylesheet" href="https://fontawesome.com/kits/b8724cbb12/use">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Bangu Tech Solutions - Professional Web Development Company specializing in modern, responsive websites and web applications">
+        <meta name="keywords" content="web development, website design, responsive design, javascript, html, css, web applications, frontend, backend">
+        <meta name="author" content="Bangu Tech Solutions">
+        <title>Bangu Tech Solutions | Professional Web Development Company</title>
+        
+        <link rel="icon" href="./multimedia/images.jpg" type="image/jpeg">
         <script src="https://kit.fontawesome.com/b8724cbb12.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-        <link rel="stylesheet"  href="./css/main.css">
-        <link rel="stylesheet" media="screen and(max-width: 900px)" href="./css/phone1.css">
-        <link rel="stylesheet" media="screen and(max-width: 695px)" href="./css/phone2.css">
-        <link rel="stylesheet" media="screen and(max-width: 1170px)" href="./css/tablet.css">
+        <link rel="stylesheet" href="./css/main.css">
     </head>
-    <body >
-        <nav class="navbar">
-            <ul>
-                <li><a href="#home"><i class="fa-solid fa-house-user"></i>&nbsp;&nbsp;Home</a></li>
-                <li><a href="#education"><i class="fa-solid fa-school"></i>&nbsp;&nbsp;Education</a></li>
-                <li><a href="#projects"><i class="fa-solid fa-diagram-project"></i>&nbsp;&nbsp;Projects</a></li>
-                <li><a href="#contacts"><i class="fa-solid fa-address-book"></i>&nbsp;&nbsp;Contact</a></li>
-                <li><a href="#About"><i class="fa-solid fa-address-card"></i>&nbsp;&nbsp;About</a></li>
+    <body>
+        <header>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#home"><i class="fa-solid fa-house-user"></i> Home</a></li>
+                    <li><a href="#services"><i class="fa-solid fa-code"></i> Services</a></li>
+                    <li><a href="#projects"><i class="fa-solid fa-diagram-project"></i> Projects</a></li>
+                    <li><a href="#contact"><i class="fa-solid fa-address-book"></i> Contact</a></li>
+                    <li><a href="#about"><i class="fa-solid fa-address-card"></i> About</a></li>
+                </ul>
+            </nav>
+        </header>
 
-            </ul>
-        </nav>
-        <section id="home">
-            <h1 class="heading">Welcome to my page</h1>
-            <br><br>
-            <h1 class="heading">13th Tech</h1>
-            <p>Here is my resume</p>
-        </section>
-        <section id="projects">
-            <h1 class="heading"> Projects</h1>
-            <div class = mygallery>
-                <img src="./multimedia/coding/python3.jpg" width="320" height="320">
-                <video width="320" height="320" controls>
-                    <source src="./multimedia/coding/python1.mp4" type="video/mp4">
-                </video>
-                <video width="320" height="320" controls>
-                    <source src="./multimedia/coding/python2.mp4" type="video/mp4">
-                </video>
-                <img src="./multimedia/coding/vm1.jpg" width="320" height="320">
-                <img src="./multimedia/coding/vm2.jpg" width="320" height="320">
-                <video width="320" height="320" controls>
-                    <source src="./multimedia/coding/vm demo.mp4" type="video/mp4">
-                </video>
-            </div>
-        </section>
-        <section id="education">
-            <h1 class="heading">Education</h1>
-            <div class="columns">
-                <div class="box">
-                    <h3>High school: Dansa International</h3>
-                    <p>In High school I opted for a science field so I studied Computer Application Technology,math,physical sciences which is a mixed of physics and chemestry.
-                        I never looked at myself as someone who memorized a lot and by doing things that will keep me far from memorizing,
-                        I will have enough time to play football.
-                    </p>
+        <main>
+            <section id="home" class="hero-section">
+                <div class="hero-content">
+                    <h1 class="heading main-title">Bangu Tech Solutions</h1>
+                    <h2 class="subtitle">Professional Web Development Company</h2>
+                    <p class="intro-text">Creating modern, responsive websites and web applications that drive your business forward</p>
+                    <a href="#services" class="cta-button">Explore Our Services</a>
                 </div>
-                <div class="box">
-                    <h3>Tertiary education</h3>
-                    <p>In College I...</p>
+            </section>
+            <section id="services">
+                <h2 class="heading">Our Web Development Services</h2>
+                <div class="services-intro">
+                    <p>We specialize in creating cutting-edge web solutions tailored to your business needs. From responsive websites to complex web applications, we deliver excellence in every project.</p>
                 </div>
-            </div>
-        </section>
-        <section id="contacts">
-            <h1 class="heading">Conctacts</h1>
-            <div class="contact-content">
-                <div class="name">
-                    <h3>Tresor Tresor</h3>
-                    <p>If you feel the need to contact me
-                        <a href="mailto:kidocodeinsternship@gmail.com" title="email">
-                            <i class="fa-solid fa-envelope"></i>
-                        </a>
-                    </p>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-laptop-code"></i>
+                        </div>
+                        <h3>Responsive Web Design</h3>
+                        <p>Creating beautiful, mobile-first websites that work perfectly on all devices and screen sizes. Our designs are modern, user-friendly, and optimized for performance.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h3>Frontend Development</h3>
+                        <p>Building interactive and dynamic user interfaces using modern JavaScript frameworks and libraries. We focus on creating seamless user experiences.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Angular</span>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-server"></i>
+                        </div>
+                        <h3>Backend Development</h3>
+                        <p>Developing robust server-side applications and APIs that power your web applications. Secure, scalable, and efficient backend solutions.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">PHP</span>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-shopping-cart"></i>
+                        </div>
+                        <h3>E-Commerce Solutions</h3>
+                        <p>Complete e-commerce platforms with payment integration, inventory management, and user-friendly shopping experiences for your customers.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">WooCommerce</span>
+                            <span class="tech-tag">Shopify</span>
+                            <span class="tech-tag">Custom</span>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-mobile-alt"></i>
+                        </div>
+                        <h3>Progressive Web Apps</h3>
+                        <p>Building PWAs that combine the best of web and mobile applications. Fast, reliable, and engaging experiences that work offline.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">PWA</span>
+                            <span class="tech-tag">Service Workers</span>
+                            <span class="tech-tag">Offline</span>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-search"></i>
+                        </div>
+                        <h3>SEO Optimization</h3>
+                        <p>Optimizing your website for search engines to improve visibility and drive organic traffic. Technical SEO and performance optimization.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">SEO</span>
+                            <span class="tech-tag">Analytics</span>
+                            <span class="tech-tag">Performance</span>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
-        <section id="About">
-            <h1 class="heading">About</h1>
-            <div class="About">
-                <img src="./multimedia/family&friends/IMG-20180822-WA0078_Original.jpg" 
-                width="320" height="320">
-                <div class="name">
-                    <h3>Tresor Tresor</h3>
-                    <p>My name is Tresor and I am from Canada.I am 30 years old and I was born in the south of Montreal but I live in Toronto. 
-                        I work as a Network engineer, and I do not have much time for hobbies these days. 
-                        But in the past, I was playing football. I am passionate about technology and always look forawrd to learn more.
-                    </p>
-                    <hr>
+            </section>
+            <section id="projects">
+                <h2 class="heading">Our Recent Projects</h2>
+                <div class="projects-intro">
+                    <p>Take a look at some of our recent web development projects. Each project showcases our commitment to quality, innovation, and client satisfaction.</p>
+                </div>
+                <div class="mygallery">
+                    <div class="project-item">
+                        <img src="./multimedia/coding/python3.jpg" width="320" height="320" alt="E-commerce website project showcase" loading="lazy">
+                        <div class="project-overlay">
+                            <h3>E-Commerce Platform</h3>
+                            <p>Modern online store with payment integration and inventory management</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <video width="320" height="320" controls>
+                            <source src="./multimedia/coding/python1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="project-overlay">
+                            <h3>Progressive Web App</h3>
+                            <p>Fast, offline-capable web application with native app features</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">PWA</span>
+                                <span class="tech-tag">Vue.js</span>
+                                <span class="tech-tag">Firebase</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <video width="320" height="320" controls>
+                            <source src="./multimedia/coding/python2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="project-overlay">
+                            <h3>Corporate Website</h3>
+                            <p>Professional business website with CMS and SEO optimization</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">WordPress</span>
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <img src="./multimedia/coding/vm1.jpg" width="320" height="320" alt="Web application dashboard screenshot" loading="lazy">
+                        <div class="project-overlay">
+                            <h3>SaaS Dashboard</h3>
+                            <p>Complex web application with data visualization and analytics</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Angular</span>
+                                <span class="tech-tag">D3.js</span>
+                                <span class="tech-tag">REST API</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <img src="./multimedia/coding/vm2.jpg" width="320" height="320" alt="Mobile-responsive website design" loading="lazy">
+                        <div class="project-overlay">
+                            <h3>Responsive Portfolio</h3>
+                            <p>Creative portfolio website with smooth animations and mobile optimization</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">GSAP</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <video width="320" height="320" controls>
+                            <source src="./multimedia/coding/vm demo.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="project-overlay">
+                            <h3>Full-Stack App</h3>
+                            <p>Complete web application with user authentication and real-time features</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">MERN Stack</span>
+                                <span class="tech-tag">Socket.io</span>
+                                <span class="tech-tag">JWT</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="education">
+                <h2 class="heading">Education & Background</h2>
+                <div class="columns">
+                    <div class="box">
+                        <div class="education-icon">
+                            <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
+                        </div>
+                        <h3>High School: Dansa International</h3>
+                        <p>During high school, I specialized in the science field, focusing on Computer Application Technology, Mathematics, and Physical Sciences (a comprehensive study of Physics and Chemistry). Rather than relying on memorization, I preferred hands-on learning approaches, which gave me more time to pursue my passion for football while maintaining academic excellence.</p>
+                        <div class="skills-tags">
+                            <span class="skill-tag">Computer Applications</span>
+                            <span class="skill-tag">Mathematics</span>
+                            <span class="skill-tag">Physical Sciences</span>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="education-icon">
+                            <i class="fa-solid fa-university" aria-hidden="true"></i>
+                        </div>
+                        <h3>Tertiary Education</h3>
+                        <p>Currently pursuing advanced studies in Network Engineering and Technology. My college experience focuses on practical application of networking concepts, system administration, and emerging technologies in the field of IT infrastructure.</p>
+                        <div class="skills-tags">
+                            <span class="skill-tag">Network Engineering</span>
+                            <span class="skill-tag">System Administration</span>
+                            <span class="skill-tag">IT Infrastructure</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contact">
+                <h2 class="heading">Let's Build Something Amazing Together</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fa-solid fa-code"></i>
+                            </div>
+                            <h3>Bangu Tech Solutions</h3>
+                            <p class="contact-title">Web Development Experts</p>
+                            <p class="contact-description">Ready to transform your ideas into powerful web solutions? Get in touch with us for a free consultation. We're here to help your business succeed online with custom web development services.</p>
+                            <div class="contact-methods">
+                                <a href="mailto:info@bangutechsolutions.com" class="contact-link" title="Send us an email">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <span>info@bangutechsolutions.com</span>
+                                </a>
+                                <div class="contact-link">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <span>+1 (555) 123-4567</span>
+                                </div>
+                                <div class="contact-link">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <span>Toronto, Canada</span>
+                                </div>
+                                <div class="contact-link">
+                                    <i class="fa-solid fa-clock"></i>
+                                    <span>Mon-Fri: 9AM-6PM EST</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="about">
+                <h2 class="heading">About Bangu Tech Solutions</h2>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="./multimedia/family&friends/IMG-20180822-WA0078_Original.jpg" 
+                             width="320" height="320" alt="Bangu Tech Solutions team workspace" loading="lazy">
+                    </div>
+                    <div class="about-text">
+                        <h3>Your Web Development Partner</h3>
+                        <p class="about-title">Innovative Solutions • Quality Code • Exceptional Results</p>
+                        <p class="about-description">
+                            Bangu Tech Solutions is a forward-thinking web development company based in Toronto, Canada. We specialize in creating modern, responsive, and high-performance websites and web applications that help businesses thrive in the digital landscape.
+                        </p>
+                        <p class="about-description">
+                            Our team combines technical expertise with creative design to deliver web solutions that not only look great but also perform exceptionally. From small business websites to complex enterprise applications, we have the skills and experience to bring your vision to life.
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat">
+                                <i class="fa-solid fa-map-marker-alt"></i>
+                                <span>Toronto, Canada</span>
+                            </div>
+                            <div class="stat">
+                                <i class="fa-solid fa-code"></i>
+                                <span>Web Development Specialists</span>
+                            </div>
+                            <div class="stat">
+                                <i class="fa-solid fa-rocket"></i>
+                                <span>Innovation & Excellence</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 
-                <!--
-                <div class="mygallery">
-                    <img src="./multimedia/sport/1533939240277.jpg">
-                    <img src="./multimedia/sport/Image22062019063226.jpg">
-                    <img src="./multimedia/sport/IMG-20170823-WA0017.jpg" >
-                    <img src="./multimedia/sport/IMG-20181225-WA0004.jpg" >
+                <div class="interests-section">
+                    <h3>Our Expertise & Technologies</h3>
+                    <div class="interests-grid">
+                        <div class="interest-card">
+                            <i class="fa-brands fa-html5"></i>
+                            <h4>Frontend Development</h4>
+                            <p>HTML5, CSS3, JavaScript, React, Vue.js</p>
+                        </div>
+                        <div class="interest-card">
+                            <i class="fa-solid fa-server"></i>
+                            <h4>Backend Development</h4>
+                            <p>Node.js, Python, PHP, Database Design</p>
+                        </div>
+                        <div class="interest-card">
+                            <i class="fa-solid fa-mobile-alt"></i>
+                            <h4>Responsive Design</h4>
+                            <p>Mobile-first, Cross-browser compatibility</p>
+                        </div>
+                        <div class="interest-card">
+                            <i class="fa-solid fa-search"></i>
+                            <h4>SEO & Performance</h4>
+                            <p>Search optimization, Speed optimization</p>
+                        </div>
+                    </div>
                 </div>
-                -->
-            </div>
-        </section>
-        <section id="About">
-            <h1 class="heading"> </h1>
-            <div class = mygallery>
-                <img src="./multimedia/sport/1533939240277.jpg">
-                <img src="./multimedia/sport/Image22062019063226.jpg">
-                <img src="./multimedia/sport/IMG-20170823-WA0017.jpg" >
-                <img src="./multimedia/sport/IMG-20181225-WA0004.jpg" >
-            </div>
-        </section>
+                
+                <div class="company-values">
+                    <h3>Why Choose Bangu Tech Solutions?</h3>
+                    <div class="values-grid">
+                        <div class="value-item">
+                            <i class="fa-solid fa-lightbulb"></i>
+                            <h4>Innovation</h4>
+                            <p>We stay ahead of the curve with the latest web technologies and trends</p>
+                        </div>
+                        <div class="value-item">
+                            <i class="fa-solid fa-handshake"></i>
+                            <h4>Partnership</h4>
+                            <p>We work closely with our clients as partners in their digital success</p>
+                        </div>
+                        <div class="value-item">
+                            <i class="fa-solid fa-shield-alt"></i>
+                            <h4>Quality</h4>
+                            <p>Every project is built with clean code, security, and scalability in mind</p>
+                        </div>
+                        <div class="value-item">
+                            <i class="fa-solid fa-clock"></i>
+                            <h4>Reliability</h4>
+                            <p>On-time delivery and ongoing support you can count on</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
         <footer>
-             <div class="footer-content">
-                 <p class="credit">&#169 Copyright 2022 13th Tech
-                    <br>
-                    Developped by 13th Tech
-                 </p>
-             </div>
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h4>Bangu Tech Solutions</h4>
+                    <p>Professional Web Development Company</p>
+                </div>
+                <div class="footer-contact">
+                    <a href="mailto:info@bangutechsolutions.com" title="Send email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="tel:+15551234567" title="Call us">
+                        <i class="fa-solid fa-phone"></i>
+                    </a>
+                </div>
+                <div class="footer-copyright">
+                    <p>&copy; 2025 Bangu Tech Solutions. All rights reserved.</p>
+                    <p class="footer-tech">Crafting exceptional web experiences</p>
+                </div>
+            </div>
         </footer>
     </body>
 </html>
